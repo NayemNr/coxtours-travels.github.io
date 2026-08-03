@@ -1,2 +1,1 @@
-# COX Tours & Travels Ltd.
-Starter HTML template.
+Original educational travel booking template inspired by modern booking platforms. Uses AOS and GSAP CDNs.

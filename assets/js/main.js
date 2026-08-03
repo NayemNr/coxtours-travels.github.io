@@ -1,0 +1,1 @@
+console.log('COX Tours & Travels Template Ready');

@@ -1,380 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>COX Tours & Travels Ltd.</title>
-
-<meta name="description"
-content="Book Hotels, Bike Rental, Tour Packages, Local Shopping and Tourist Vehicles in Cox's Bazar.">
-
 <link rel="stylesheet" href="css/style.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
 </head>
-
 <body>
-
 <header>
-
-<nav>
-
-<div class="logo">
-
+<div class="container nav">
 <h2>COX Tours & Travels Ltd.</h2>
-
-</div>
-
-<ul>
-
-<li><a href="#">Home</a></li>
-
-<li><a href="hotels.html">Hotels</a></li>
-
-<li><a href="bike-rent.html">Bike Rent</a></li>
-
-<li><a href="vehicles.html">Vehicles</a></li>
-
-<li><a href="packages.html">Tours</a></li>
-
-<li><a href="shopping.html">Shopping</a></li>
-
-<li><a href="restaurants.html">Restaurants</a></li>
-
-<li><a href="gallery.html">Gallery</a></li>
-
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
-
+<nav>
+<a href="#">Home</a>
+<a href="#hotels">Hotels</a>
+<a href="#bike">Bike Rent</a>
+<a href="#vehicles">Vehicles</a>
+<a href="#shopping">Shopping</a>
+<a href="#contact">Contact</a>
 </nav>
-
+</div>
 </header>
 
 <section class="hero">
-
 <div class="overlay">
-
-<h1>Discover Cox's Bazar</h1>
-
-<p>Book Hotels, Rent Bikes, Hire Tourist Vehicles and Explore the World's Longest Sea Beach.</p>
-
-<a href="#" class="btn">Book Now</a>
-
+<h1>Explore Beautiful Cox's Bazar</h1>
+<p>Hotels • Tours • Bike Rent • Vehicles • Local Shopping</p>
+<a class="btn" href="#hotels">Book Your Trip</a>
 </div>
-
 </section>
 
-<section class="search">
-
-<h2>Quick Search</h2>
-
-<form>
-
-<input type="text" placeholder="Destination">
-
-<input type="date">
-
-<input type="date">
-
-<select>
-
-<option>Hotels</option>
-
-<option>Bike Rental</option>
-
-<option>Vehicle Rental</option>
-
-<option>Tour Package</option>
-
-</select>
-
-<button>Search</button>
-
-</form>
-
-</section>
-
-<section>
-
+<section class="container" id="hotels">
 <h2>Featured Hotels</h2>
-
-<div class="card">
-
-<img src="images/hotel1.jpg">
-
-<h3>Sea View Resort</h3>
-
-<p>★★★★★</p>
-
-<p>From ৳4500/Night</p>
-
-<button>Book Now</button>
-
+<div class="grid">
+<div class="card"><h3>Ocean Paradise</h3><p>Luxury Beach Resort</p><button>Book Now</button></div>
+<div class="card"><h3>Sea Pearl</h3><p>5 Star Experience</p><button>Book Now</button></div>
+<div class="card"><h3>Budget Inn</h3><p>Affordable Stay</p><button>Book Now</button></div>
 </div>
-
-<div class="card">
-
-<img src="images/hotel2.jpg">
-
-<h3>Ocean Paradise</h3>
-
-<p>★★★★★</p>
-
-<p>From ৳6500/Night</p>
-
-<button>Book Now</button>
-
-</div>
-
 </section>
 
-<section>
-
+<section class="container" id="bike">
 <h2>Bike Rental</h2>
-
-<div class="card">
-
-<img src="images/bike1.jpg">
-
-<h3>Yamaha FZS</h3>
-
-<p>৳1200 / Day</p>
-
-<button>Rent Now</button>
-
+<div class="grid">
+<div class="card"><h3>Honda Hornet</h3><p>৳1400 / Day</p></div>
+<div class="card"><h3>Yamaha FZS</h3><p>৳1200 / Day</p></div>
+<div class="card"><h3>Scooter</h3><p>৳800 / Day</p></div>
 </div>
-
-<div class="card">
-
-<img src="images/bike2.jpg">
-
-<h3>Honda Hornet</h3>
-
-<p>৳1400 / Day</p>
-
-<button>Rent Now</button>
-
-</div>
-
 </section>
 
-<section>
-
+<section class="container" id="vehicles">
 <h2>Tourist Vehicles</h2>
-
-<div class="card">
-
-<h3>Car Rental</h3>
-
+<div class="grid">
+<div class="card">Car Rental</div>
+<div class="card">Microbus</div>
+<div class="card">Hiace</div>
+<div class="card">Bus</div>
 </div>
-
-<div class="card">
-
-<h3>Hiace</h3>
-
-</div>
-
-<div class="card">
-
-<h3>Microbus</h3>
-
-</div>
-
-<div class="card">
-
-<h3>Bus</h3>
-
-</div>
-
 </section>
 
-<section>
-
-<h2>Tour Packages</h2>
-
-<ul>
-
-<li>1 Day Tour</li>
-
-<li>2 Day Tour</li>
-
-<li>3 Day Tour</li>
-
-<li>Saint Martin Tour</li>
-
-<li>Himchari Tour</li>
-
-<li>Marine Drive Tour</li>
-
-</ul>
-
-</section>
-
-<section>
-
+<section class="container" id="shopping">
 <h2>Traditional Shopping</h2>
-
-<div class="card">
-
-Dry Fish
-
+<div class="grid">
+<div class="card">Dry Fish</div>
+<div class="card">Sea Shell Crafts</div>
+<div class="card">Burmese Products</div>
+<div class="card">Handicrafts</div>
 </div>
-
-<div class="card">
-
-Sea Shell Crafts
-
-</div>
-
-<div class="card">
-
-Burmese Products
-
-</div>
-
-<div class="card">
-
-Pearls
-
-</div>
-
-<div class="card">
-
-Handicrafts
-
-</div>
-
 </section>
 
-<section>
-
-<h2>Restaurants</h2>
-
-<div class="card">
-
-Seafood Restaurant
-
-</div>
-
-<div class="card">
-
-Beach Cafe
-
-</div>
-
-<div class="card">
-
-Coffee Shop
-
-</div>
-
+<section class="container" id="contact">
+<h2>Contact</h2>
+<p><strong>COX Tours & Travels Ltd.</strong></p>
+<p>Plot No. 10, Block C, Hotel Motel Zone,<br>Near Ocean Paradise Ltd., New Beach Road,<br>Cox's Bazar 4700, Bangladesh</p>
 </section>
 
-<section>
-
-<h2>Why Choose Us?</h2>
-
-<ul>
-
-<li>✔ Best Hotel Deals</li>
-
-<li>✔ Trusted Local Guides</li>
-
-<li>✔ 24/7 Support</li>
-
-<li>✔ Secure Payments</li>
-
-<li>✔ Instant Booking</li>
-
-<li>✔ Local Shopping</li>
-
-</ul>
-
-</section>
-
-<section>
-
-<h2>Customer Reviews</h2>
-
-<div class="card">
-
-★★★★★
-
-Excellent service!
-
-</div>
-
-<div class="card">
-
-★★★★★
-
-Highly recommended.
-
-</div>
-
-</section>
-
-<section>
-
-<h2>Contact Us</h2>
-
-<p>
-
-COX Tours & Travels Ltd.
-
-</p>
-
-<p>
-
-Plot No. 10, Block C
-
-Hotel Motel Zone
-
-Near Ocean Paradise Ltd.
-
-New Beach Road
-
-Cox's Bazar-4700
-
-Bangladesh
-
-</p>
-
-<p>
-
-Phone: +8801XXXXXXXXX
-
-</p>
-
-<p>
-
-Email: info@coxtours.com
-
-</p>
-
-</section>
-
-<footer>
-
-<p>
-
-© 2026 COX Tours & Travels Ltd.
-
-All Rights Reserved.
-
-</p>
-
-</footer>
-
+<footer>© 2026 COX Tours & Travels Ltd. All Rights Reserved.</footer>
 <script src="js/main.js"></script>
-
 </body>
-
 </html>

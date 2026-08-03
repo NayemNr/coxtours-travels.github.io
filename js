@@ -1,1 +1,0 @@
-console.log('COX Tours & Travels loaded');
